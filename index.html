@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tafhim</title>
+  <meta name="description" content="Personal website of Tafhim.">
+  <meta property="og:title" content="Tafhim">
+  <meta property="og:description" content="Personal website of Tafhim.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2314213D'/><text x='50' y='70' font-size='64' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'>T</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="mark" href="#top" aria-label="Tafhim, home">Tafhim</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>TAFHIM</h1>
+      <p class="tagline">Your role or one-line introduction goes here.</p>
+    </section>
+
+    <section id="about" class="block">
+      <h2>About</h2>
+      <div class="copy">
+        <p>Write two or three sentences about who you are, what you do, and what you are working on. Keep it plain and specific.</p>
+        <p>Add a second paragraph if you want to mention your background or what you are looking for.</p>
+      </div>
+    </section>
+
+    <section id="work" class="block">
+      <h2>Work</h2>
+      <ul class="rows">
+        <li>
+          <a href="#">
+            <span class="title">Project name</span>
+            <span class="desc">One sentence on what it is and what you did.</span>
+            <span class="year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="title">Project name</span>
+            <span class="desc">One sentence on what it is and what you did.</span>
+            <span class="year">2025</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="title">Project name</span>
+            <span class="desc">One sentence on what it is and what you did.</span>
+            <span class="year">2024</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>Contact</h2>
+      <div class="copy">
+        <p>Want to work together or just say hello?</p>
+        <p><a class="email" href="mailto:hello@example.com">hello@example.com</a></p>
+        <p class="links">
+          <a href="https://github.com/">GitHub</a>
+          <a href="https://linkedin.com/">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Tafhim</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
